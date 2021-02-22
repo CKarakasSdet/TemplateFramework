@@ -1,4 +1,4 @@
-package DataDrivenDevelopment;
+package dataDrivenDevelopment;
 
 import java.io.FileInputStream;
 import java.io.IOException;

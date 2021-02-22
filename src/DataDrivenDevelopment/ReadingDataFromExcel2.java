@@ -1,4 +1,4 @@
-package DataDrivenDevelopment;
+package dataDrivenDevelopment;
 
 import java.io.IOException;
 import utilities.ExcelUtils;
@@ -19,9 +19,9 @@ public class ReadingDataFromExcel2 extends ExcelUtils {
 		String expVal = "NEIOENLLEN@gmail.com"; 
 		
 		if(val.equals(expVal)) {
-			ExcelUtils.setCellValueForResult("EMAIL", rowNumber, "Passed");
+			ExcelUtils.setCellValueForResult("EMAIL", rowNumber, "RESULT2", "Passed");
 		} else {
-			ExcelUtils.setCellValueForResult("EMAIL", rowNumber, "Failed");
+			ExcelUtils.setCellValueForResult("EMAIL", rowNumber, "RESULT2","Failed");
 		}
 		
 		
