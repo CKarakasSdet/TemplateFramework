@@ -48,8 +48,28 @@ public class JavaScriptUtils {
 		js.executeScript("arguments[0].click();", element); 
 	}
 	
+	public static void generateAlert(WebDriver driver, String message) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("alert('"+ message +"');"); 
+	}
+	
+	public static void refreshByJavascript(WebDriver driver) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("history.go(0);"); 
+	}
+
+	public static void scrollIntoView(WebElement element, WebDriver driver) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView(true)", element);
+	}
+	
+	public static void scrollToBottomOfPage(WebDriver driver) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+	}
 	
 	
+
 	
 	
 

@@ -4,6 +4,8 @@ package SeleniumSetup;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 public class SeleniumFirstTest {
 
@@ -30,8 +32,10 @@ public class SeleniumFirstTest {
 		
 		String titleActual = driver.getTitle();
 		
-		
+		//Assert.assertEquals(titleActual, titleExpected);
 	
+		SoftAssert sa = new SoftAssert(); 
+		sa.assertAll(); 
 		
 		Thread.sleep(2000);
 		

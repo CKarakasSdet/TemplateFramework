@@ -1,0 +1,8 @@
+2021-02-22 03:44:15,304  INFO [main] Log4jTest:20 - System properties set for chrome browser.
+ 2021-02-22 03:44:18,677  INFO [main] Log4jTest:23 - Chrome browser is initialized.
+ 2021-02-22 03:44:18,815  INFO [main] Log4jTest:26 - windows is maximized.
+ 2021-02-22 03:44:19,810  INFO [main] Log4jTest:29 - navigated to https://www.saucedemo.com/
+ 2021-02-22 03:44:19,952  INFO [main] Log4jTest:32 - Found element for username and send user name.
+ 2021-02-22 03:44:20,034  INFO [main] Log4jTest:35 - sent password.
+ 2021-02-22 03:44:20,806  INFO [main] Log4jTest:38 - clicked on login button
+ 
