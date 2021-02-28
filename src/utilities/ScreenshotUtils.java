@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ScreenshotUtils {
 
+	@SuppressWarnings("null")
 	public static void captureScreenshot() throws IOException {
 		
 		WebDriver driver = null ;
